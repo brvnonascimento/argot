@@ -33,8 +33,14 @@
 
 	h1 {
 		font-size: clamp(5rem, 10vw, 10rem);
-		margin: 0;
+		margin: 0 auto;
 		text-align: center;
+		/* background-image: url('/brush-stroke.svg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: clamp(18rem, 35vw, 40rem);
+		background-position: center 60%;
+		overflow: visible; */
 	}
 
 	h2 {
@@ -48,14 +54,13 @@
 		flex-direction: column;
 		gap: 1.5rem;
 		align-items: flex-start;
-		padding-top: 4rem;
+		padding-top: 2rem;
 	}
 
 	label {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		gap: 0.25rem;
 		font-weight: bold;
 		font-size: clamp(1.5rem, 2vw, 2rem);
 	}

@@ -18,10 +18,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
-	/* background: linear-gradient(to bottom, #001A29, #0072C6, #C8BFE7, #F9DC5C); */
-	background: linear-gradient(to bottom, #0078C8, #FFFFFF, #F9632D);
-	background: linear-gradient(to bottom, #0078C8, #FFFFFF 70%, #FC7F3C);
-
+	background: linear-gradient(to bottom, #0078C8, #FFFFFF 60%, #FC7F3C 110%);
 }
 
 h1,
